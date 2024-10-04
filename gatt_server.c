@@ -50,7 +50,7 @@ static esp_gatt_char_prop_t char1_properties = ESP_GATT_CHAR_PROP_BIT_WRITE;
 // Properties for Characteristic 2 (Notify)
 static esp_gatt_char_prop_t char2_properties = ESP_GATT_CHAR_PROP_BIT_NOTIFY;
 static esp_gatt_char_prop_t char3_properties = ESP_GATT_CHAR_PROP_BIT_WRITE | ESP_GATT_CHAR_PROP_BIT_READ | ESP_GATT_CHAR_PROP_BIT_NOTIFY;
-#define TEST_DEVICE_NAME            "FACTORY_TEST"
+#define TEST_DEVICE_NAME            "ESP_REMOTE"
 
 static uint16_t service1_handle;
 static uint16_t char1_write_handle;
